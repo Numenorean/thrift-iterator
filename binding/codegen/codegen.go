@@ -1,7 +1,7 @@
 package codegen
 
 import (
-	"github.com/thrift-iterator/go/spi"
+	"github.com/Numenorean/thrift-iterator/spi"
 	"reflect"
 )
 

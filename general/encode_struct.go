@@ -1,8 +1,8 @@
 package general
 
 import (
-	"github.com/thrift-iterator/go/spi"
-	"github.com/thrift-iterator/go/protocol"
+	"github.com/Numenorean/thrift-iterator/spi"
+	"github.com/Numenorean/thrift-iterator/protocol"
 )
 
 type generalStructEncoder struct {

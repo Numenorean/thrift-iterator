@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go/test"
+	"github.com/Numenorean/thrift-iterator/test"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/thrift-iterator/go/test/level_2/struct_of_pointer_test"
+	"github.com/Numenorean/thrift-iterator/test/level_2/struct_of_pointer_test"
 )
 
 func Test_unmarshal_struct_of_1_ptr(t *testing.T) {

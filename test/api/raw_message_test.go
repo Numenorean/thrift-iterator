@@ -3,11 +3,11 @@ package test
 import (
 	"testing"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go"
-	"github.com/thrift-iterator/go/general"
+	"github.com/Numenorean/thrift-iterator"
+	"github.com/Numenorean/thrift-iterator/general"
 	"fmt"
-	"github.com/thrift-iterator/go/raw"
-	"github.com/thrift-iterator/go/protocol"
+	"github.com/Numenorean/thrift-iterator/raw"
+	"github.com/Numenorean/thrift-iterator/protocol"
 )
 
 func Test_decode_struct_of_raw_message(t *testing.T) {

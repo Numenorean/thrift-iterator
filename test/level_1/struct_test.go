@@ -4,11 +4,11 @@ import (
 	"testing"
 	"git.apache.org/thrift.git/lib/go/thrift"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go/protocol"
-	"github.com/thrift-iterator/go/test"
-	"github.com/thrift-iterator/go/test/level_1/struct_test"
-	"github.com/thrift-iterator/go/general"
-	"github.com/thrift-iterator/go/raw"
+	"github.com/Numenorean/thrift-iterator/protocol"
+	"github.com/Numenorean/thrift-iterator/test"
+	"github.com/Numenorean/thrift-iterator/test/level_1/struct_test"
+	"github.com/Numenorean/thrift-iterator/general"
+	"github.com/Numenorean/thrift-iterator/raw"
 )
 
 func Test_decode_struct_by_iterator(t *testing.T) {

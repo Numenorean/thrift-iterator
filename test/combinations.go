@@ -1,10 +1,10 @@
 package test
 
 import (
-	"github.com/thrift-iterator/go"
+	"github.com/Numenorean/thrift-iterator"
 	"bytes"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/thrift-iterator/go/spi"
+	"github.com/Numenorean/thrift-iterator/spi"
 )
 
 type Combination struct {

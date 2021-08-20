@@ -4,10 +4,10 @@ import (
 	"testing"
 	"github.com/stretchr/testify/require"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/thrift-iterator/go/protocol"
-	"github.com/thrift-iterator/go/test"
-	"github.com/thrift-iterator/go/test/level_2/struct_of_struct_test"
-	"github.com/thrift-iterator/go/general"
+	"github.com/Numenorean/thrift-iterator/protocol"
+	"github.com/Numenorean/thrift-iterator/test"
+	"github.com/Numenorean/thrift-iterator/test/level_2/struct_of_struct_test"
+	"github.com/Numenorean/thrift-iterator/general"
 )
 
 func Test_skip_struct_of_struct(t *testing.T) {

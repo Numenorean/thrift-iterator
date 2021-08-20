@@ -4,7 +4,7 @@ import (
 	"testing"
 	"encoding/hex"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go"
+	"github.com/Numenorean/thrift-iterator"
 	"fmt"
 )
 

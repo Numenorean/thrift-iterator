@@ -4,11 +4,11 @@ import (
 	"testing"
 	"encoding/hex"
 	"github.com/stretchr/testify/require"
-	"github.com/thrift-iterator/go"
+	"github.com/Numenorean/thrift-iterator"
 	"fmt"
-	"github.com/thrift-iterator/go/protocol"
+	"github.com/Numenorean/thrift-iterator/protocol"
 	"bytes"
-	"github.com/thrift-iterator/go/general"
+	"github.com/Numenorean/thrift-iterator/general"
 )
 
 type combination struct {

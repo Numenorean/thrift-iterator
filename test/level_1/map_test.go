@@ -4,10 +4,10 @@ import (
 	"testing"
 	"github.com/stretchr/testify/require"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/thrift-iterator/go/protocol"
-	"github.com/thrift-iterator/go/test"
-	"github.com/thrift-iterator/go/general"
-	"github.com/thrift-iterator/go/raw"
+	"github.com/Numenorean/thrift-iterator/protocol"
+	"github.com/Numenorean/thrift-iterator/test"
+	"github.com/Numenorean/thrift-iterator/general"
+	"github.com/Numenorean/thrift-iterator/raw"
 )
 
 func Test_decode_map_by_iterator(t *testing.T) {

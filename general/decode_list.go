@@ -1,6 +1,6 @@
 package general
 
-import "github.com/thrift-iterator/go/spi"
+import "github.com/Numenorean/thrift-iterator/spi"
 
 type generalListDecoder struct {
 }

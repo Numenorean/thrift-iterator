@@ -2,8 +2,8 @@
 package test
 import "github.com/v2pro/wombat/generic"
 import "reflect"
-import "github.com/thrift-iterator/go/test/api/binding_test"
-import "github.com/thrift-iterator/go/protocol/binary"
+import "github.com/Numenorean/thrift-iterator/test/api/binding_test"
+import "github.com/Numenorean/thrift-iterator/protocol/binary"
 func init() {
 generic.RegisterExpandedFunc("Decode_DT_ptr_binding_test__TestObject_EXT_default_ST_ptr_binary__Iterator",Decode_DT_ptr_binding_test__TestObject_EXT_default_ST_ptr_binary__Iterator)}
 var typeOf = reflect.TypeOf

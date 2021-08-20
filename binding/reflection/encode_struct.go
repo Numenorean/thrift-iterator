@@ -1,8 +1,8 @@
 package reflection
 
 import (
-	"github.com/thrift-iterator/go/protocol"
-	"github.com/thrift-iterator/go/spi"
+	"github.com/Numenorean/thrift-iterator/protocol"
+	"github.com/Numenorean/thrift-iterator/spi"
 	"unsafe"
 )
 

@@ -3,7 +3,7 @@ package reflection
 import (
 	"reflect"
 	"unsafe"
-	"github.com/thrift-iterator/go/spi"
+	"github.com/Numenorean/thrift-iterator/spi"
 )
 
 type mapDecoder struct {
