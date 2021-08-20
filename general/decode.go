@@ -27,6 +27,8 @@ func generalReaderOf(ttype protocol.TType) func(iter spi.Iterator) interface{} {
 		return readMap
 	case protocol.TypeStruct:
 		return readStruct
+	case protocol.TypeSet:
+		return readList
 	default:
 		panic("unsupported type")
 	}
