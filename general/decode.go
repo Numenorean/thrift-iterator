@@ -31,7 +31,7 @@ func generalReaderOf(ttype protocol.TType) func(iter spi.Iterator) interface{} {
 	case protocol.TypeSet:
 		return readList
 	default:
-		panic(fmt.Sprintf("unsupported type: %v", ttype))
+		panic(fmt.Sprintf("unsupported type: %d", ttype))
 	}
 }
 
