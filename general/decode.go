@@ -1,6 +1,7 @@
 package general
 
 import (
+	"fmt"
 	"github.com/thrift-iterator/go/spi"
 	"github.com/thrift-iterator/go/protocol"
 )
@@ -30,7 +31,7 @@ func generalReaderOf(ttype protocol.TType) func(iter spi.Iterator) interface{} {
 	case protocol.TypeSet:
 		return readList
 	default:
-		panic("unsupported type")
+		panic(fmt.Sprintf("unsupported type: %d", ttype))
 	}
 }
 
